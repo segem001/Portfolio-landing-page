@@ -5,6 +5,9 @@ g<!DOCTYPE html>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio landing page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,8 +18,8 @@ g<!DOCTYPE html>
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#About">About</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#section">Projects</a></li>
+            <li><a href="#container">Contact</a></li>
         </ul>
     </div>
     <div class="content">
@@ -69,7 +72,7 @@ g<!DOCTYPE html>
                 <p>2019-2020</p>
        </div>
     </div>
-    <div class="section">
+    <div id="section">
        <h2>Projects</h2>
        <em>My portfolio for soft devs constitute Moringa School'IP</em>
        <br><br>
@@ -88,7 +91,7 @@ g<!DOCTYPE html>
              <p>This website is used for the purpose of <br>branding 
                  street food</p>
           </ul>
-          <div class="container">
+          <div id="container">
             <h2>Contact Me</h2>
             <em>Contact me,the website master</em><br>
             <p>You can always count on me to get your website <br>and other
@@ -97,13 +100,25 @@ g<!DOCTYPE html>
               <input type="text" placeholder="Email">
               <input type="text" placeholder="Subject">
               <button id="button">Submit</button>
+              <div id="icon">
+                <h3>Get in touch through</h3>
+                <i class="fa fa-facebook fa-2x">facebook</i><br><br>
+                <i class="fa fa-linkedin fa-2x">linkedin</i><br><br>
+                <i class="fa fa-twitter fa-2x">twitter</i><br><br>
+                <i class="fa fa-instagram fa-2x">instagram</i>
+               
+            </div>
+            <div class="footer">
+                
+                 <h3 class="footText">©CopyRight AllRights Reserved</h3>
+             </div>
                 
             </div>
              
     
               
     
-           </div>  
+           </div> 
            
              
            
