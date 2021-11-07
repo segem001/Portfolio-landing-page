@@ -5,15 +5,14 @@
 GitHub Pages is designed to host personal, organization, or project pages from a GitHub repository.
 ### [View Live Site]()
 ## Description
-My Website is designed for the purpose of summarizing my career and area of specialization as far as professional class is concerned hence can attract employment opportunity hiring partners.
+My Website is designed for the purpose of summarizing my career and area of specialization as far as professional class is concerned hence can attract employment opportunity from hiring partners.
 ### Requirements
-
 * Either a computer,phone,tablet or an Ipad
 
 * An access to the Internet
 
 ### Installation Process
-The project is setup in the visual studio code by creating an HTML file, a related CSS file and Javascript.
+The project is setup in the visual studio code by creating an HTML file,and its CSS file.
 
 ## Technology Used
 * HTML - which was used to build the structure of the pages.
