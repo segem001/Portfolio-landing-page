@@ -3,7 +3,7 @@
 ### This is a webiste designed and developed under the requirement of Moringa School in fulfillment of one's obligation to complete Independent Project
 ## Live link to this project's GitHub Pages.
 GitHub Pages is designed to host personal, organization, or project pages from a GitHub repository.
-### [View Live Site](https://github.com/segem001/Portfolio-landing-page.git)
+### [View Live Site](https://segem001.github.io/Portfolio-landing-page/)
 ## Description
 My Website is designed for the purpose of summarizing my career and area of specialization as far as professional class is concerned hence can attract employment opportunity from hiring partners.
 ### Requirements
