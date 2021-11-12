@@ -117,7 +117,6 @@ p {
 .workexperience {
     line-height: 30px;
     color: white;
-    float: right;
     margin-top: -410px;
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
@@ -162,11 +161,12 @@ p {
     line-height: 5px;
     font-size: 30px;
 }
+    
 
 #section button {
     background-color: green;
     text-align: center;
-    float: right;
+    /* float: right; */
     margin-right: 750px;
 }
 
@@ -256,8 +256,11 @@ input:hover {
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
 }
-@media screen and (min-width:768px){
+ @media screen and (min-width:768px){
     .workexperience{
-        float:right;
-    }
-}
+margin-left: 1100px;   
+ }
+ #section button {
+    margin-left: 750px;
+ }
+} 
