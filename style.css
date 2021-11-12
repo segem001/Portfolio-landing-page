@@ -1,206 +1,258 @@
-html{
+html {
     scroll-behavior: smooth;
 }
-body{
-    background-image: url("portfolio.png");
-    background-repeat: no-repeat;
-    background-size:100% 1000px;
 
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("portfolio.png");
+    background-repeat: no-repeat;
+    background-size: 100% 1000px;
+    font-family: 'Times New Roman', Times, serif;
 }
-#header img{
+
+#header img {
     margin-top: -1px;
     border-radius: 15px;
     width: 80px;
     height: 100px;
     z-index: -1;
-    margin-left: -10px;
-    margin-top: -8px;
-    }
-    .navbar ul {
-        display: flex;
-        align-items: center;
-        float: right;
-        margin-top: -120px;
-        width: 95%;
-        height: 100px;
-        background-color: #BDEDFD;
-        justify-content: center;
-        margin-right: -7px;
-    
-    }
-    .navbar ul li{
-        margin-right: 100px;
-        list-style-type: none;
-        padding: 10px;
-        
-    }
-    .navbar ul li a{
+    margin-top: -18px;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    float: right;
+    margin-top: -120px;
+    width: 94.6%;
+    height: 100px;
+    background-color: #BDEDFD;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin-right: 100px;
+    list-style-type: none;
+    padding: 10px;
+}
+
+.navbar ul li a {
     text-decoration: none;
     font-size: 25px;
     color: black;
-    }
-    .navbar ul li a:hover{
-        background-color: green;
-    }
-    .content{
-        font-size: 20px;
-        font-family: sans-serif;
-        padding-left: 30px;
-        /* background-color:#000D1C; */
-        color: white;
-        margin-top: -45px;
-    }
-    
-    .content button{
-       background-color: green;
-      color:white;
-      padding:5px;
-      border-radius: 20px;
-    }
-    .content img{
-        float: right;
-        margin-top: -370px;
-        margin-left: -500px;
-        margin-right: 200px;
-        border-radius: 100px;
-    }
-    #About{
-        height: 180px;
-        margin-top:70px;
-    }
-    
-    .Education{
-        line-height: 5px;
-        color: white;
-        margin-left: 30px;
-        margin-bottom: 20px;
-    } 
-    .Education h2{
-        color: green;
-        text-shadow: 3px 3px 20px red;
-        font-size: 40px;
-    }
-    .Knowme{
-        float:right;
-        margin-top: -400px;
-        margin-right: 650px;
-        color: white;
-        padding:9px;
-        font-size: 20px;
-    }
-    .Knowme h2{
-        color: green;
-        font-size: 40px;
-        text-align: center;
-        text-shadow: 2px 2px 10px red;
-    }
-    .workexperience{
-        line-height: 5px;
-        color:white;
-        float:right;
-        margin-top: -350px;
-    }
-    .workexperience strong{
+}
+
+.navbar ul li a:hover {
+    background-color: green;
+}
+
+.content {
     font-size: 20px;
-    }
-    .workexperience h2{
-        color:green;
-        font-size: 40px;
-        text-shadow: 3px 3px 10px red;
-    }
-    #section{
-        clear: both;
-        height: 800px;
-        /* border: 5px solid; */
-        background-color:#BDEDFF;
-        /* margin-left: -20px; */
-        width: 1550px;
-        margin-left: -20px;
-        
-    } 
-    #section h2 {
-        /* float: right; */
-        color:green;
-        text-align: center;
-        font-size: 30px;
-        /* text-shadow: 3px 3px 10px black; */
-        font-size: 40px;
-    }
-    #section a{
-        text-decoration: none;
-        color: blue;
-        margin-left: 30px;
-    }
-    #section em{
-        margin-left: 580px;
-        line-height: 5px;
-        font-size: 30px;
-    }
-    #section button{
-        border-radius: 30px;
-        background-color: green;
-       text-align: center;
-       float: right;
-       margin-right: 700px;
-    
-    }
-    #section ul{
-        display: flex;
-        list-style-type: none;
-        justify-content: space-between;
-    }
-    #section  p{
-        margin-left: -60px;
-        font-size: 20px;
-    }
-    #section ul li a{
-        margin-left: 160px;
-    }
-    #container h2{
-        font-size: 30px;
-    }
-    #container p{
-        text-align: center; 
-    }
-    #container input{
-        margin-bottom: 20px;
-        display: block;
-        margin: 30px;
-        width: 400px;
-        margin-left: 580px;
-        height: 40px;
-        /* border: 1px #BDEDFD; */
-        outline: auto;
-        color: green;
-    }
-    #button{
-        height: 45px;
-        width: 200px;
-        border: 1px black;
-        text-transform: uppercase;
-        font-family: sans-serif;
-        background-color: green;
-        margin-left: 400px;
-    }
-    #button:hover{
-        color:green;
-        background-color: white;
-    }
-    #icon {
-        float: right;
-        width: 400px;
-        margin-top: -300px;
-    }
-    #icon h3{
-        font-size: 30px;
-        color: green;
-    }
-    .footer{
-        clear: both;
-        background-color:FFFFFF;
-        margin-top: 100px;
-        height:50px;
-    }
-    .footer h3{
-        text-align: center;
-    }
+    font-family: sans-serif;
+    padding-left: 30px;
+    color: white;
+    margin-top: -45px;
+}
+
+.content h1,
+h2,
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.content img {
+    float: right;
+    margin-top: -370px;
+    margin-left: -500px;
+    margin-right: 200px;
+    border-radius: 100px;
+}
+
+#About {
+    height: 180px;
+    margin-top: 70px;
+}
+
+.Education {
+    line-height: 2px;
+    color: white;
+    margin-left: 30px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#graduate {
+    line-height: 25px;
+}
+
+.Education h2 {
+    color: #5CB85C;
+    font-size: 30px;
+}
+
+.Knowme {
+    float: right;
+    margin-top: -400px;
+    margin-right: 650px;
+    color: white;
+    padding: 9px;
+}
+
+.Knowme P {
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 27px;
+    text-align: justify;
+}
+
+.Knowme h2 {
+    color: #5CB85C;
+    font-size: 30px;
+    text-align: center;
+}
+
+.Knowme ol {
+    font-size: 20px;
+}
+
+.workexperience {
+    line-height: 30px;
+    color: white;
+    float: right;
+    margin-top: -410px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.workexperience p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.workexperience strong {
+    font-size: 20px;
+}
+
+.workexperience h2 {
+    color: #5CB85C;
+    font-size: 30px;
+}
+
+#section {
+    clear: both;
+    height: 800px;
+    background-color: #BDEDFF;
+    margin-left: -20px;
+}
+
+#section h2 {
+    color: green;
+    text-align: center;
+    font-size: 30px;
+    font-size: 40px;
+}
+
+#section a {
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+#section em {
+    margin-left: 580px;
+    line-height: 5px;
+    font-size: 30px;
+}
+
+#section button {
+    background-color: green;
+    text-align: center;
+    float: right;
+    margin-right: 750px;
+}
+
+#section ul {
+    display: flex;
+    margin-left: 160px;
+}
+
+#section ul li {
+    list-style-type: none;
+}
+
+#section p {
+    font-size: 20px;
+    margin-left: -220px;
+    margin-top: 30px;
+    margin-right: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#section ul li a {
+    margin-left: 8px;
+}
+
+u {
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#contain h2 {
+    font-size: 30px;
+}
+
+#contain p {
+    text-align: center;
+    margin-left: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#contain input {
+    margin-bottom: 20px;
+    display: block;
+    margin: 30px;
+    width: 400px;
+    margin-left: 580px;
+    height: 40px;
+    outline: auto;
+    color: green;
+}
+
+#button:hover {
+    color: green;
+    background-color: white;
+}
+
+#icon {
+    float: right;
+    width: 400px;
+    margin-top: -300px;
+}
+
+#icon h3 {
+    font-size: 30px;
+    color: green;
+}
+
+input {
+    font-size: 20px
+}
+
+input:hover {
+    background-color: #5CB85C
+}
+
+.footer {
+    clear: both;
+    background-color: #ffffff;
+    margin-top: 180px;
+    height: 50px;
+}
+
+.footer h3 {
+    line-height: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
