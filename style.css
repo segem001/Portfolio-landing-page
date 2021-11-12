@@ -262,9 +262,14 @@ margin-left: 1500px;
  }
 .Knowme{
     margin-right:700px;
+    margin-top: -380px;
+
 }
+.contain p{
 
-
+    margin-left: 0px;
+    
+}
  #section button {
     margin-left: 750px;
  }
